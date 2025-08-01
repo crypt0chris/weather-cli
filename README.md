@@ -4,41 +4,61 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-A simple command-line tool that fetches real-time weather data for any city using the OpenWeatherMap API. Built for speed and minimalism, perfect for terminal lovers.
+A sleek and minimalist terminal tool for fetching real-time weather conditions by city, using the OpenWeatherMap API. Perfect for CLI enjoyers and automation enthusiasts.
 
-Features
-• Get current weather conditions by city name
-• Displays temperature, weather description, humidity, and wind speed
-• Clean output for quick reading
-• Lightweight and easy to modify
+## ✨ Features
 
-Installation
+- 🌤 Current weather conditions by city name
+- 🌡 Temperature shown in both °C / °F
+- 💧 Humidity and 🌬 Wind speed included
+- 🔧 Clean CLI output, easy to integrate and extend
+- 📂 Supports `.env` file for API key management
+
+## 📦 Installation
 
 Clone the repo:
+
+```bash
 git clone https://github.com/crypt0chris/weather-cli.git
 cd weather-cli
+```
 
-Install dependencies (if any):
-pip install -r requirements.txt (only if required)
+Install dependencies:
 
-Usage
+```bash
+pip install -r requirements.txt
+```
 
-Run the script:
+## 🔑 Setup
+
+Create a `.env` file with your OpenWeatherMap API key:
+
+```env
+OPENWEATHER_API_KEY=your_api_key_here
+```
+
+Alternatively, copy `.env.example` and add your key:
+
+```bash
+cp .env.example .env
+```
+
+## 🚀 Usage
+
+Run the CLI:
+
+```bash
 python3 main.py
+```
 
-When prompted, enter a city name.
+Then enter a city in the format:  
+`City,StateCode,CountryCode`  
+_Examples:_
 
-Make sure to replace your_api_key_here in the script with your actual OpenWeatherMap API key.
+- `New York,NY,US`
+- `Washington,DC,US`
+- `Tokyo,JP`
 
-Example
-
-Enter city name: New York
-Weather in New York:
-🌡 Temperature: 75.2°F
-☁️ Condition: Clear sky
-💧 Humidity: 60%
-🌬 Wind Speed: 5.5 mph
-
-License
+## 📄 License
 
 This project is licensed under the MIT License.
