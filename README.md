@@ -1,5 +1,9 @@
 # Weather CLI
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 A simple command-line tool that fetches real-time weather data for any city using the OpenWeatherMap API. Built for speed and minimalism, perfect for terminal lovers.
 
 Features
